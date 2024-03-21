@@ -1,0 +1,16 @@
+                                          -- Real time chat application --
+
+
+Here we are going to learn about the web socket concept by creating one chat application in spring boot where multiple user can chat with each other 
+in a single page 
+
+Normally in HTTP protocol a client will request something to the server and then server will send the response to the client as per the request
+and also server will not recognise or save the request any where its like client will send and server will receive and send the response 
+
+But in chat application scenario is not that here client and serevr are connected with each other if te client want to left then only client will 
+disconnected from the server . So for that we are using web socket . This is a bidirectional protocol . This is a full duplex protocol . 
+
+Here we will do something like if the client will send the request to the server we will accept the request and we will connect together
+(client <-> server)
+by the help of web socket , this will establish the connection in betweedn serverand the client .
+This connection will be connected with each other for that time when no can can terminate with other

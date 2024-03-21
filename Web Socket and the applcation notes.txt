@@ -14,3 +14,15 @@ Here we will do something like if the client will send the request to the server
 (client <-> server)
 by the help of web socket , this will establish the connection in betweedn serverand the client .
 This connection will be connected with each other for that time when no can can terminate with other
+
+This is the official doc for web socket -->
+
+https://spring.io/guides/gs/messaging-stomp-websocket
+
+I added all the doc for the class and the method in the application  we can refer from there 
+
+In the application -->
+
+To connect with server we have URL : "/server1"
+To send the message we have URL : "/app/message" and here we will send the message {JSON}
+To sybscribe so that we can receive messages we have URL : "/topic/return-to"
